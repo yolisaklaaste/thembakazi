@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar ul li a{
+    padding: 10px;
+    background: lightgrey;
+}
+.nav-bar ul li a:hover{
+background: #173459;
+color: #f8f9f9;
+}
+.nav-bar .active{
+    background: #173459;
+    color: #f8f9f9;
+}
+.nav-bar ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
